@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--sweet alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <!--/-->
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Tao</title>
+</head>
+<body>
+    <div class="dad">
+        <div class="scoreboard">
+            <div class="score">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SCORE</div>
+            <div class="griditems">
+            <div class="scoreboard__name">X player</div>
+            <div class="scoreboard__name">&nbsp &nbsp O player</div>
+            <div><h3 id="scoreboard_scorex">0</h3></div>
+            <div><h3 id="scoreboard_scoreo">&nbsp &nbsp0</h3></div>
+        </div>
+    </div>
+    <div class="parent-container">
+        <div id="header-and-board-wrapper">
+        <div class="header">
+            <h2 id="instruction">
+                 X turn
+            </h2>
+        </div>
+        <!--board-->
+        <div class="child2-container">
+            <div class="tile" value="1" style="border-top:none;"><h3></h3></div>
+            <div class="tile" value="2" style="border-top:none;"><h3></h3></div>
+            <div class="tile" value="3" style="border-top:none;border-right: none;"><h3></h3></div>
+            <div class="tile" value="4" ><h3></h3></div>
+            <div class="tile" value="5" ><h3></h3></div>
+            <div class="tile" value="6" style="border-right: none;"><h3></h3></div>
+            <div class="tile" value="7" ><h3></h3></div>
+            <div class="tile" value="8" ><h3></h3></div>
+            <div class="tile" value="9" style="border-right: none;"><h3></h3></div>
+        </div>
+        </div>
+        <div class="footer">
+           <button class="action-btn" id="reset-btn">
+            reset
+           </button>
+        </div>
+    </div> 
+</nav>
+    <script src="script.js"></script>
+</body>
+</html>
